@@ -1,0 +1,104 @@
+/* colors & fonts */
+
+body {
+	background-color: black;
+	color: white;
+	font-family: 'Abel', sans-serif;
+	font-weight: 100;
+	font-size: 12px;
+}
+
+h1 {
+	color: white;
+	font-family: 'Cinzel', serif;
+	font-weight: lighter;
+	letter-spacing: 7px;
+}
+
+h2 {
+	color: white;
+	font-family: 'Cinzel', serif;
+	font-weight: lighter;
+	letter-spacing: 7px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-weight: lighter;
+	transition: font-weight 0.3s ease;
+}
+
+a:hover {
+	color:black;
+	font-weight: bold;
+}
+
+
+/* custom design with class */
+
+.container{
+	width:700px;
+	margin: 40px auto;
+}
+
+ @media (max-width: 760px){
+
+ .container{
+	 width: 600px;
+ }
+
+}
+ @media (max-width: 500px){
+
+ .container{
+	 width: 400px;
+ }
+
+}
+ 
+.card-black{
+	background-color: black;
+    padding: 60px;
+    margin: 50px;
+    box-shadow: 0px 10px 20px rgb(250 250 250);
+    border-radius: 4px;
+    text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.btn-white{
+	background-color: white;
+	color: black;
+	padding: 8px 20px;
+	border-radius: 4px;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;	
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 25px;
+	color: white;
+}
+
+#introduction p{
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
